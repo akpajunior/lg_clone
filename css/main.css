@@ -1,0 +1,280 @@
+*{padding: 0;margin: 0;font-family: sans-serif;}
+/*header start*/
+body{background-color: white;}
+.header{display: flex;align-items: center;}
+.header .logo img{height: 80px;width: 70px;padding-left: 15px;;}
+.header .logo a{width: 10%;}
+.header a{text-decoration: none;color: black;margin: 5px;padding: 10px}
+.header .nav-links{width: 95%;}
+.header .nav-links .row1{display: flex; justify-content: space-between;border-bottom: .4px solid lightgrey ;
+padding-bottom: 5px;}
+.header .nav-links .row2{display: flex; justify-content: space-between;padding-top: 5px;}
+/*header ends*/
+/*sliders start*/
+.slider{width: 100%;height: 600px;background-image: url('../img/banner.webp');background-size: cover;
+background-repeat: no-repeat;}
+.slider a{text-decoration: none;color: white;background-color: maroon; padding: 18px;
+margin-left: 40px;position: relative;top: 80%;left: 10%;border-radius: 5px;}
+/*sliders end*/
+/*section1 start*/
+.section1{display: flex;justify-content: space-evenly;text-align: center;padding-top: 50px;padding: 50px;}
+.section1 .col2 img{width: 50%; background-size: cover;}
+.section1 .col1{border: 0.5px solid lightgrey;padding: 30px;border-radius: 20px;}
+.section1 .col1 h1{padding-bottom: 20px;font-size: 20px;}
+.section1 .col1 p{padding-top: 20px;color: grey;}
+.section1 .col2{border: 0.5px solid lightgrey;padding: 30px;border-radius: 20px;margin-left: 20px;}
+.section1 .col2 h1{padding-bottom: 70px;font-size: 20px;}
+.section1 .col2 p{padding-top: 60px;color: grey;}
+.section1 .col3{border: 0.5px solid lightgrey;padding: 30px;border-radius: 20px;margin-left: 20px;}
+.section1 .col3 h1{padding-bottom: 10px;font-size: 20px;}
+.section1 .col3 p{padding-top: 50px;color: grey;}
+/*section 1 end*/
+/*section2 start*/
+.section2 {width: 100%;height: 300px;padding-bottom: 20px;}
+.section2{background-image: url(../img/B2B\ Banner-01-01.webp);background-repeat: no-repeat;width: 100%;height: 300px;
+background-size: cover;}
+.section2 a{position: relative; padding: 15px;border-radius: 10px;background-color: maroon;top: 60%;left: 40%;bottom: 9;
+margin-left: 50px;text-decoration: none;color: white;}
+/*section2  end*/
+/*section3 start*/
+.section3{display: flex;justify-content: space-between;padding: 30px;}
+.section3 .col{width: 30%;margin: 10px;}
+.section3 .col img{width: 100%;height: 200px;text-align:center;}
+.section3 h1{text-align: left;font-size: 26px;padding-top: 30px;padding-bottom: 30px;}
+.section3 a{text-decoration: none;color: black;padding: 10px;p}
+/*section3 ends*/
+/*section4 start*/
+.section4{padding: 20px;text-align: center;}
+.section4 .links{text-decoration: none;color: black; justify-content: space-between;text-align: center;padding-bottom: 10px;}
+.section4 .links a{text-decoration: none;color: black;text-align: center; justify-content: space-around;padding: 30px
+    ;padding-bottom: 10px;}
+.section4 .row1{display: flex;;padding: 20px;padding-top: 5px;border-top: .5px solid lightgrey;}
+.section4 .row1 img{width: 60%;height: 200px;text-align: center;padding-top: 20px;}
+.section4 .row1 p{font-size: 15px;padding-top: 10px;text-align: center;padding-bottom: 10px;padding: 20px;}
+
+/*section4 ends*/
+/*section5 start*/
+.section5{width: 98%;display: flex;justify-content: space-around;margin: auto;margin-top: 100px;}
+.section5 .col1{width: 38%; background-image: url(../img/africa-home-block-1-t.webp);height: 650px;
+    background-size: cover;text-align: center;}
+ .section5 .col1 h1{color: white;padding-top: 40px;font-size: 25px;}
+.section5 .col2{width: 58%;}
+ .section5 .col2 h1{margin-left: 10px;}
+.section5 .col2 .img1,.img2{height: 310px;}
+.section5 .col2 .img1{background-image: url(../img/africa-home-block-2-d.webp);background-size: cover;}
+.section5 .col2 .img2{background-image: url(../img/africa-home-block-3-d.webp);margin-top: 22px;background-size: cover;}
+/*section5 ends*/
+/*section6 start*/
+.section6{display: flex; justify-content:space-evenly ;text-align: center;}
+.section6 .col{text-align: center;padding: 30px;align-items: center;}
+.section6 .col img{width: 30% ;padding-bottom: 10px;height: 50px;}
+.section6 h1{color:;font-size: 15px;}
+/*section6 ends*/
+/*section7 start*/
+.section7 {text-align: center;padding-top: 25px;;}
+.section7 h1{padding-bottom: 25px;font-size: 20px;}
+.section7 p{color: lightgray;font-size: 13px;}
+/*section7 ends*/
+/*section8 start*/
+.section8{display: flex;justify-content: space-evenly;text-align: center;padding-top: 40px;padding-bottom: 30px;}
+.section8 p{color: lightgray;}
+/*section8 ends*/
+/*section9 start*/
+.section9{text-align: center;}
+.section9 h1{padding-bottom: 25px;font-size: 20px;}
+.section9 p{color: lightgray;font-size: 15px;}
+/*section9 end*/
+/*section10 start*/
+.section10{display: flex;justify-content:space-around;list-style: none;text-align: center;padding-top: 40px;}
+.section10 .col1 {padding-left: 40px;margin-right: 20px;}
+.section10 .col1 ul{list-style: none;color: lightgray;}
+.section10 .col1 img{text-align: center;}
+.section10 h1{font-size: 25px;padding: 15px}
+.section10 .col2 a{color:lightgray;;}
+/*section10 end*/
+/*section11 start*/
+.section11{background-color:lightgrey;}
+.section11 .row1 p{margin: 10px;padding-top: 15px;padding-bottom: 15px;}
+.section11 .row2{display: flex;justify-content: space-between;padding-top: 20px;border-top: .5px solid black;
+border-bottom: .5px solid black;padding-bottom: 5px;margin: 10px;}
+.section11 .row2 .sec1{display: flex;padding-top: 5px;}
+.section11 .row2 .sec1 .col1 h3{font-size: 15px;}
+.section11 .row2 .sec2 img{width: 30px;}
+.section11 .row3{display: flex;justify-content:space-evenly;padding-left: 20px;background-color: lightgrey;
+margin-left: 20px;}
+.section11 .row3 h1{font-size: 15px;}
+.section11 .row3 ul{list-style: none;padding-left: 10px;padding-top: 10px;color: gray;}
+.section11 .row3 p{font-size: medium;padding-top: 10px;}
+.section11 .row3 .col5 h2{padding-top: 10px;font-size: 15px;}
+.section11 .row3 .col5 p{color: gray;}
+.section11 .row3 .col1,.col2,.col3,.col4,.col5,.col6{margin-right: 10px;}
+.section11 .row3 .col4,.col5{border-right: .5px solid black;padding-right: 5px;}
+/*section11 end*/
+/*section12 start*/
+.section12{background-color:rgb(71, 71, 71);padding: 10px;}
+.section12 .row1{display: flex;padding:}
+.section12 .row1 p{margin-right: 10px;;}
+/*section12 end*/
+/*home page ends*/
+/*tv/audio/video page start*/
+/*tv-top start*/
+.tv-top .row1{text-align: left;padding: 10px;color: gray;font-size: 15px;}
+.tv-top .row2{text-align: center;font-size: 18px;padding-top: 10px;}
+/*tv-top end*/
+/*tv-slider start*/
+.tv-slider{background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-hero-2-d.jpg');width: 100%;height: 500px;background-size: cover;
+    background-repeat: no-repeat;padding-top: 40px;}
+.tv-slider .row1{text-align: right;padding-right: 230px;padding-top: 220px;}  
+.tv-slider .row1 h1{padding-bottom: 60px;color: white;}
+.tv-slider .row1 a{text-decoration: none;color: white;background-color: maroon; padding: 18px;
+    border-radius: 5px;}
+/*tv-slider end*/
+/*tv-section1 start*/
+.tv-section1{display: flex;justify-content: space-evenly;width: 90%;margin: auto;margin-top: 90px;}
+.tv-section1 .col{width: 30%;border: .5px solid grey;margin: 10px;text-align: center;border-radius: 10px;}
+.tv-section1 .col img{width: 100%;height: 200px;object-fit: cover;text-align: center;}
+.tv-section1 .col h1{padding-bottom: 30px;padding-top: 10px;font-size: 20px;}
+.tv-section1 .col p{padding-top: 30px;padding-bottom: 10px;color: grey;font-size: 12px;padding: 5px;}
+.tv-section1 .col4{width: 32%;border: .4px solid grey;margin: 10px;text-align: center;border-radius: 10px;}
+/*tv-section 1 end*/
+/*tv-section 2 start*/
+.tv-section2 .row1{display: flex;justify-content: space-evenly; padding-top: 20px;text-align: center;padding: 10px;padding-bottom: 30px;}
+.tv-section2 h1{text-align: center;font-size: 25px;padding-top: 20px;}
+.tv-section2 .row1 .col img{padding-bottom: 30px;padding-top: 20px;}
+.tv-section2 .row1 .col a{text-decoration: none;background-color: maroon;padding: 10px;
+    border-radius: 8px;color: white;}
+/*tv-section 2 end*/
+/*tv-section 3 start*/
+.tv-section3{background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-pdp-2-d.jpg');width: 100%;height: 500px;background-size: cover;
+    background-repeat: no-repeat;padding-top: 40px;}
+.tv-section3 .row1{text-align: left;padding-left: 800px;padding-top: 150px;}  
+.tv-section3 .row1 h1{padding-bottom: 60px;color: white; margin-right: 20px;}
+.tv-section3 .row1 a{text-decoration: none;color: white;background-color: maroon; padding: 18px;
+    border-radius: 5px;margin: auto;;}
+/*tv-section 3 end*/
+/*tv-section5 start*/
+.tv-section5{width: 98%;display: flex;justify-content: space-around;margin: auto;margin-top: 100px;}
+.tv-section5 .col1{width: 30%; background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-block-3-d.jpg');height: 640px;
+    background-size: cover;text-align: center;}
+.tv-section5 .col1{width: 38%;}  
+.tv-section5 .col1 h1{color: white;padding-top: 40px;font-size: 25px;}
+.tv-section5 .col1 p{padding-top: 20px;}
+.tv-section5 .col2{width: 58%;}
+.tv-section5 .col2 h1{margin-left: 10px;}
+.tv-section5 .col2 .img1,.img2{height: 310px;}
+.tv-section5 .col2 .img1,.img2 h1{color: white;}
+.tv-section5 .col2 .img1{background-size: cover;background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-block-2-d.jpg');}
+.tv-section5 .col2 .img2{background-image: url('../img/LG TV_Audio_Video/africa-tvaudiovideo-block-1-d.jpg');margin-top: 22px;background-size: cover;}
+/*section9 start*/
+.section9{text-align: center;}
+.section9 h1{padding-bottom: 25px;font-size: 20px;}
+.section9 p{color: lightgray;font-size: 15px;}
+/*section9 end*/
+/*section10 start*/
+.section10{display: flex;justify-content:space-around;list-style: none;text-align: center;padding-top: 40px;}
+.section10 .col1 {padding-left: 40px;margin-right: 20px;}
+.section10 .col1 ul{list-style: none;color: lightgray;}
+.section10 .col1 img{text-align: center;}
+.section10 h1{font-size: 25px;padding: 15px}
+.section10 .col2 a{color:lightgray;;}
+/*section10 end*/
+/*section11 start*/
+.section11{background-color:lightgrey;}
+.section11 .row1 p{margin: 10px;padding-top: 15px;padding-bottom: 15px;}
+.section11 .row2{display: flex;justify-content: space-between;padding-top: 20px;border-top: .5px solid black;
+border-bottom: .5px solid black;padding-bottom: 5px;margin: 10px;}
+.section11 .row2 .sec1{display: flex;padding-top: 5px;}
+.section11 .row2 .sec1 .col1 h3{font-size: 15px;}
+.section11 .row2 .sec2 img{width: 30px;}
+.section11 .row3{display: flex;justify-content:space-evenly;padding-left: 20px;background-color: lightgrey;
+margin-left: 20px;}
+.section11 .row3 h1{font-size: 15px;}
+.section11 .row3 ul{list-style: none;padding-left: 10px;padding-top: 10px;color: gray;}
+.section11 .row3 p{font-size: medium;padding-top: 10px;}
+.section11 .row3 .col5 h2{padding-top: 10px;font-size: 15px;}
+.section11 .row3 .col5 p{color: gray;}
+.section11 .row3 .col1,.col2,.col3,.col4,.col5,.col6{margin-right: 10px;}
+.section11 .row3 .col4,.col5{border-right: .5px solid black;padding-right: 5px;}
+/*section11 end*/
+/*section12 start*/
+.section12{background-color:rgb(71, 71, 71);padding: 10px;}
+.section12 .row1{display: flex;padding:}
+.section12 .row1 p{margin-right: 10px;;}
+/*section12 end*/
+/*tv/audio/video page ends*/
+/*home appliance page start*/
+/*home-top start*/
+.home-top .row1{text-align: left;padding: 10px;color: gray;font-size: 15px;}
+.home-top .row2{text-align: center;font-size: 15px;padding-top: 10px;padding-bottom: 10px;}
+/*home-top end*/
+/*home-slider start*/
+.home-slider{background-image: url('../img/Home Appliance/africa-homeappliances-hero-1-d.jpg');width: 100%;height: 500px;background-size: cover;
+    background-repeat: no-repeat;padding-top: 40px;}
+.home-slider .row1{text-align: right;padding-right: 230px;padding-top: 220px;}  
+.home-slider .row1 h1{padding-bottom: 20px;color: white;}
+.home-slider .row1 p{color: white;padding-bottom: 30px;}
+.home-slider .row1 a{text-decoration: none;color: white;background-color: maroon; padding: 18px;
+    border-radius: 5px;}
+/*home-slider end*/
+/*home-section1 start*/
+.home-section1{display: flex;justify-content: space-evenly;width: 90%;margin: auto;margin-top: 90px;}
+.home-section1 .col{width: 40%;border: .5px solid grey;margin: 10px;text-align: center;border-radius: 10px;}
+.home-section1 .col img{width: 100%;height: 250px;object-fit: cover;text-align: center;}
+.home-section1 .col h1{padding-bottom: 30px;padding-top: 10px;font-size: 20px;}
+.home-section1 .col p{padding-top: 30px;padding-bottom: 10px;color: grey;font-size: 12px;padding: 5px;}
+.home-section1 .col4{width: 35%;border: .4px solid grey;margin: 10px;text-align: center;border-radius: 10px;}
+/*home section 1 end*/
+/*home-section 2 start*/
+.home-section2 .row1{display: flex;justify-content: space-evenly; padding-top: 20px;text-align: center;padding: 10px;padding-bottom: 30px;}
+.home-section2 h1{text-align: center;font-size: 25px;padding-top: 20px;}
+.home-section2 .row1 .col img{padding-bottom: 30px;padding-top: 20px;}
+.home-section2 .row1 .col a{text-decoration: none;background-color: maroon;padding: 10px;
+    border-radius: 8px;color: white;}
+/*home-section 2 end*/
+/*home-section 3 start*/
+.home-section3{background-image: url('../img/Home Appliance/africa-homeappliances-supercategory-5\(1\).jpg');width: 100%;height: 500px;background-size: cover;
+    background-repeat: no-repeat;padding-top: 40px;}
+.home-section3 .row1{text-align: left;padding-left: 650px;padding-top: 150px;}  
+.home-section3 .row1 h1{padding-bottom: 50px;color: white; margin-right: 20px;}
+.home-section3 .row1 p{color: white;padding-bottom: 30px;}
+.home-section3 .row1 a{text-decoration: none;color: white;background-color: maroon; padding: 18px;
+    border-radius: 5px;margin: auto;;}
+/*home section 3 end*/
+/*section9 start*/
+.home-section9{text-align: center; padding-top: 120px;}
+.home-section9 h1{padding-bottom: 25px;font-size: 20px;}
+.home-section9 p{color: lightgray;font-size: 15px;}
+/*section9 end*/
+/*section10 start*/
+.section10{display: flex;justify-content:space-around;list-style: none;text-align: center;padding-top: 40px;}
+.section10 .col1 {padding-left: 40px;margin-right: 20px;}
+.section10 .col1 ul{list-style: none;color: lightgray;}
+.section10 .col1 img{text-align: center;}
+.section10 h1{font-size: 25px;padding: 15px}
+.section10 .col2 a{color:lightgray;;}
+/*section10 end*/
+/*section11 start*/
+.section11{background-color:lightgrey;}
+.section11 .col1 p{margin: 10px;padding-top: 15px;padding-bottom: 15px;}
+.section11 .row2{display: flex;justify-content: space-between;padding-top: 20px;border-top: .5px solid black;
+border-bottom: .5px solid black;padding-bottom: 5px;margin: 10px;}
+.section11 .row2 .sec1{display: flex;padding-top: 5px;}
+.section11 .row2 .sec1 .col1 h3{font-size: 15px;}
+.section11 .row2 .sec2 img{width: 30px;}
+.section11 .row3{display: flex;justify-content:space-evenly;padding-left: 20px;background-color: lightgrey;
+margin-left: 20px;}
+.section11 .row3 h1{font-size: 15px;}
+.section11 .row3 ul{list-style: none;padding-left: 10px;padding-top: 10px;color: gray;}
+.section11 .row3 p{font-size: medium;padding-top: 10px;}
+.section11 .row3 .col5 h2{padding-top: 10px;font-size: 15px;}
+.section11 .row3 .col5 p{color: gray;}
+.section11 .row3 .col1,.col2,.col3,.col4,.col5,.col6{margin-right: 10px;}
+.section11 .row3 .col4,.col5{border-right: .5px solid black;padding-right: 5px;}
+/*section11 end*/
+/*section12 start*/
+.section12{background-color:rgb(71, 71, 71);padding: 10px;}
+.section12 .col1{display: flex;;}
+.section12 .col1 p{margin-right: 10px;}
+.section12 .col2 p{margin-right: 20px;;}
+/*section12 end*/
+/*home aplliance page ends*/
